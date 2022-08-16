@@ -1,3 +1,5 @@
+#bimg
+
 velikost souboru [B] = (délka strany obrázku [px])^2
 
 Výhody:
