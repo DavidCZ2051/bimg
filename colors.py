@@ -1,6 +1,6 @@
 from math import floor
 
-x = input("8 => 24 press 1, 24 => 8 press 2: ")
+x = input("Press 1 to convert 8-bit color to 24-bit\nPress 2 to convert 24-bit color to 8-bit")
 
 def convert_8_to_24(byte):
     byte = int(byte, 16)
@@ -29,4 +29,3 @@ elif x == "2":
 else:
     print("Invalid input")
     exit()
-
